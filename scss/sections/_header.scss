@@ -2,32 +2,34 @@
 
 
 .navbar{
-    background-color: #011627 !important;
-    color: #f6f7f8 !important;
+    background-color: $color-oscuro !important;
+    color: $color-claro!important;
     text-decoration: none;
    
       
 }
 
 .navbar-toggler{
-    background-color: #20a4f3;
-    border-color: #2ec4b6;
-    color: #f6f7f8;
+    background-color: $azul;
+    border-color: $verde;
+    color: $color-claro;
   
 }
 
 .nav-enlace{
-    color: #f6f7f8;
+    color: $color-claro;
+    font-family: $typo-principal;
 }
 
 .nav-enlace:hover {
-    background: #ff3366;
+    background: $rojo;
 }
 
 .nombre-escuela{
-    color:#f6f7f8;
+    color:$color-claro;
     font-size: 14px;
-    font-weight: 400;
+    font-weight:400;
+    font-family: $typo-principal;
     
     
 }
@@ -79,7 +81,7 @@ height: 60px;
     .pequeño-titulo-inicio {
         font-weight: bold;
         text-align: center;
-        color: #20a4f3;
+        color: $azul;
     
     
     }
@@ -92,11 +94,12 @@ height: 60px;
     .navbar{ 
         font-size: .625rem;
         background: transparent;
+
     
     }
     
       .titulo-inicio {
-        color: #ff3366;
+        color: $rojo;
         font-size: .875rem;
         display: inline-block;
     
@@ -104,7 +107,7 @@ height: 60px;
     
     .subtitulo-inicio {
         padding: 0px;
-        color: #2ec4b6;
+        color: $verde;
         font-weight: 400;
         font-size: .625rem;
     }
@@ -126,7 +129,7 @@ height: 60px;
     }
 
     .titulo-inicio {
-        color: #ff3366;
+        color: $rojo;
         font-weight: 600;
        font-size: .6875rem;
         display: inline-block;
@@ -135,7 +138,7 @@ height: 60px;
     
     .subtitulo-inicio {
         padding: 0px;
-        color: #2ec4b6;
+        color: $verde;
         font-size: .625rem;
         display: inline-block;
     }

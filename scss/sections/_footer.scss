@@ -10,19 +10,19 @@ footer{
     grid-template-rows: repeat(12, 1fr);
     justify-items: center;
     justify-content: space-around;
-    background-color: #011627;
+    background-color: $color-oscuro;
     box-sizing: border-box;
     
     ol {
     display: inline-block;
-    color: #f6f7f8;
+    color: $color-claro;
     list-style: none;
     grid-gap: 5px;
     font-size: 12px;
     
     a {
     text-decoration: none;
-    color: #f6f7f8;
+    color: $color-claro;
     text-align: center;
   font-size: 12px;
 }  
@@ -32,7 +32,7 @@ footer{
 .created-footer{
     h4 {
     grid-column-start: 2;
-    color: #f6f7f8;
+    color: $color-claro;
     font-size: 14px;
 } 
 }
@@ -101,7 +101,7 @@ footer{
 }
 .menu-footer ol a {
     text-decoration: none;
-    color: #f6f7f8;
+    color: $color-claro;
     text-align: center;
     font-size: 8px;
 
@@ -109,7 +109,7 @@ footer{
 }
 .created-footer h4 {
     grid-column-start: 2;
-    color: #f6f7f8;
+    color: $color-claro;
     font-size: .625rem;
 }
 

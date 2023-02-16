@@ -3,14 +3,21 @@ img{
     width: 100%;
 }
 
-.row{
+.formato-titulos{
+    text-align: center;
+    display: block;
+    font-family: $typo-principal;
+    text-transform: uppercase;
+} 
+
+.row{ 
     display: flex;
     padding: .3125rem;
     flex-wrap: wrap;
-    h1{
+    h1 { @extend .formato-titulos;
     padding-top: 9.375rem;
     display: inline-block;
-    color: #ff3366;
+    color: $rojo;
     font-weight: 400;
 }
 }
@@ -29,7 +36,7 @@ img{
     .row h1{
         padding-top: 9.375rem;
         display: inline-block;
-        color: #ff3366;
+        color: $rojo;
     }
     
     .column{
@@ -42,7 +49,7 @@ img{
     .row h1{
         padding-top: 9.375rem;
         display: inline-block;
-        color: #ff3366;
+        color: $rojo;
         font-weight: 400;
         font-size: 1.25rem;
     }
