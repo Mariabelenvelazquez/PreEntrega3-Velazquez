@@ -1,0 +1,87 @@
+//Hoja Nosotros
+
+img{
+    width: 100%;
+}
+
+
+.nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    flex-direction: column;
+    }
+
+.nosotros h1{
+padding-top: 110px;
+padding-bottom:4.6875rem;
+color: #ff3366;
+font-weight: 400;
+
+}
+
+.column-nosotros{
+    padding: .3125rem;
+    display: flex;
+    
+    img{
+    width: 300px;} 
+    
+    p{
+    display: inline-flex;
+    text-align: justify;
+    margin: 20px;
+ 
+}
+}
+
+.subtitulos-nosotros{
+    color: #2ec4b6;
+    padding: 20px;
+}
+
+
+
+@media (max-width: 792px){
+    .nosotros h1{
+        padding-top: 110px;
+        display: inline-block;
+        color: #ff3366;
+    }
+    
+    .column-nosotros{
+        flex: 100%;
+        padding: .3125rem;
+        flex-direction: column;
+        align-items: center;
+    
+
+     img{
+        display: 100%;
+    
+    }
+}
+
+}
+
+@media (max-width: 500px){
+    .nosotros h1{
+        padding-top: 110px;
+        display: inline-block;
+        color: #ff3366;
+        font-weight: 400;
+        font-size: 1.25rem;
+    }
+    .column-nosotros{
+        flex: 100%;
+        padding:.3125rem;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .column-nosotros img{
+        display: 100%;
+    
+    }
+
+}

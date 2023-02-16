@@ -1,0 +1,54 @@
+/* Hoja galeria */
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: .3125rem;
+    flex-wrap: wrap;
+    h1{
+    padding-top: 9.375rem;
+    display: inline-block;
+    color: #ff3366;
+    font-weight: 400;
+}
+}
+
+.column{
+    flex: 25%;
+    padding: .3125rem;
+    img{
+    margin-top: .3125rem;
+}
+
+}
+
+
+@media (max-width: 792px){
+    .row h1{
+        padding-top: 9.375rem;
+        display: inline-block;
+        color: #ff3366;
+    }
+    
+    .column{
+        flex: 50%;
+        padding: .3125rem;
+    }
+}
+
+@media (max-width: 500px){
+    .row h1{
+        padding-top: 9.375rem;
+        display: inline-block;
+        color: #ff3366;
+        font-weight: 400;
+        font-size: 1.25rem;
+    }
+    .column{
+        flex: 100%;
+        padding:.3125rem;
+    }
+
+}
