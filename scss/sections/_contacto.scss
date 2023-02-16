@@ -10,6 +10,11 @@ formato-titulos{
 text-transform: uppercase;
 }
 
+subtitulos{
+    
+}
+
+
 .container-form {
     background-color: $color-oscuro;
     display: flex;
@@ -17,15 +22,12 @@ text-transform: uppercase;
     flex-wrap: wrap;
     text-align: center;
     padding: 20px;
-
-    h2{
-    h5{
-    color: $color-claro;
-    text-align: center;
-    margin-bottom: 20px;
+    h2{color:#f6f7f8;
+    h5{color:#f6f7f8;
+        text-align: center;
+        margin-bottom: 20px;
 }
 }
-
     }
     
 
@@ -39,7 +41,8 @@ form{
     margin-top: 20px;
     font-family: $typo-secundaria;
     box-shadow: 0px 2px 10px 5px rgb(136, 182, 219);
-    border-radius: 5px;;
+    border-radius: 5px;
+   
 }
 
 input, textarea {
@@ -49,12 +52,14 @@ input, textarea {
     box-sizing: border-box;
     font-size: 17px;
     border: none;
+    color: $color-claro;
 }
 
 textarea{
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
+    color:$color-claro;
 }
 
 
