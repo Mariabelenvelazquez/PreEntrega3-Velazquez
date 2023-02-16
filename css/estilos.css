@@ -206,7 +206,7 @@ footer {
 img {
   width: 100%; }
 
-.formato-titulos, .nosotros h1, .container-beneficios h1, .row h1, .titulo-inicio {
+.formato-titulos, .nosotros h1, .row h1 {
   display: block;
   font-family: "DM Serif Display", serif;
   text-transform: uppercase; }
@@ -270,7 +270,7 @@ img {
     display: 100%; } }
 
 /* Hoja Beneficios */
-.formato-titulos, .nosotros h1, .container-beneficios h1, .row h1, .titulo-inicio {
+formato-titulos, .container-beneficios h1, .titulo-inicio {
   display: block;
   font-family: "DM Serif Display", serif;
   text-transform: uppercase; }
@@ -308,7 +308,7 @@ img {
 img {
   width: 100%; }
 
-.formato-titulos, .nosotros h1, .container-beneficios h1, .row h1, .titulo-inicio {
+.formato-titulos, .nosotros h1, .row h1 {
   text-align: center;
   display: block;
   font-family: "DM Serif Display", serif;
@@ -351,7 +351,7 @@ img {
     padding: .3125rem; } }
 
 /* Hoja Contacto */
-.formato-titulos, .nosotros h1, .container-beneficios h1, .row h1, .titulo-inicio {
+formato-titulos, .container-beneficios h1, .titulo-inicio {
   text-align: center;
   display: block;
   font-family: "DM Serif Display", serif; }
@@ -451,9 +451,3 @@ textarea {
     margin-top: .625rem;
     box-sizing: border-box;
     border-radius: .1875rem; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif; }

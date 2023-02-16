@@ -1,5 +1,5 @@
 /* Hoja Beneficios */
-.formato-titulos{
+formato-titulos{
     display: block;
     font-family: $typo-principal;
     text-transform: uppercase;
@@ -8,7 +8,7 @@
 .container-beneficios {
 
     h1 {
-    @extend .formato-titulos;
+    @extend formato-titulos;
             padding-top: 6.25rem;
             padding-bottom: 6.25rem;
             display: inline-block;

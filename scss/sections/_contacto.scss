@@ -1,12 +1,12 @@
 /* Hoja Contacto */
 
-.formato-titulos{
+formato-titulos{
     text-align: center;
     display: block;
     font-family: $typo-principal;
 } 
 
-.titulo-inicio {@extend .formato-titulos;
+.titulo-inicio {@extend formato-titulos;
 text-transform: uppercase;
 }
 
