@@ -109,9 +109,6 @@ footer {
   font-weight: 400;
   font-family: "DM Serif Display", serif; }
 
-.logo-karate {
-  height: 60px; }
-
 /* ANIMACION */
 .nombre-escuela {
   animation-name: movimiento;
@@ -156,11 +153,9 @@ footer {
     font-size: .625rem; }
   .pequeño-titulo-inicio {
     font-weight: bold;
-    font-size: 0.625rem; }
-  .logo-karate {
-    flex: 25%; } }
+    font-size: 0.625rem; } }
 
-@media (max-width: 789px) and (max-width: 500px) {
+@media (max-width: 500px) {
   .navbar {
     font-size: .625rem; }
   .titulo-inicio {
@@ -372,10 +367,11 @@ formato-titulos, .container-beneficios h1, .titulo-inicio {
   flex-wrap: wrap;
   text-align: center;
   padding: 20px; }
-  .container-form h2 h5 {
-    color: #f6f7f8;
-    text-align: center;
-    margin-bottom: 20px; }
+
+.subtitulo-contacto {
+  color: #f6f7f8;
+  text-align: center;
+  margin-bottom: 20px; }
 
 form {
   width: 400px;
@@ -387,7 +383,8 @@ form {
   box-shadow: 0px 2px 10px 5px #88b6db;
   border-radius: 5px; }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
@@ -435,7 +432,8 @@ textarea {
     text-align: center;
     margin-bottom: 20px;
     font-size: smaller; }
-  input, textarea {
+  input,
+  textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
